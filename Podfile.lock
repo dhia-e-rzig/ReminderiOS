@@ -1,0 +1,123 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Appz (2.1.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.22.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.22.1):
+    - FBSDKCoreKit
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - Parse (1.15.0):
+    - Bolts/Tasks (~> 1.8)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - ParseTwitterUtils (1.11.0):
+    - Bolts/Tasks (~> 1.7)
+    - Parse (~> 1.13)
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - SKClient (4.0.0):
+    - SKCore
+  - SKCore (4.0.0)
+  - SKRTMAPI (4.0.0):
+    - SKCore
+    - SKWebAPI
+    - Starscream
+  - SKServer (4.0.0):
+    - SKCore
+    - SKWebAPI
+    - Swifter
+  - SKWebAPI (4.0.0):
+    - SKCore
+  - SlackKit (4.0.0):
+    - SKClient
+    - SKCore
+    - SKRTMAPI
+    - SKServer
+  - Starscream (2.1.0)
+  - Swifter (1.3.3)
+  - SwiftyJSON (3.1.4)
+  - TwitterCore (3.0.0)
+  - TwitterKit (3.0.3):
+    - TwitterCore (>= 3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Appz
+  - FacebookCore (~> 0.2)
+  - FacebookLogin (~> 0.2)
+  - FacebookShare (~> 0.2)
+  - FBSDKCoreKit (~> 4.22.1)
+  - FBSDKLoginKit (~> 4.22.1)
+  - FBSDKShareKit (~> 4.22.1)
+  - JSQMessagesViewController
+  - NVActivityIndicatorView
+  - ParseFacebookUtilsV4
+  - ParseTwitterUtils
+  - ParseUI
+  - SlackKit
+  - SwiftyJSON
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Appz: bacae2b1ba3ea1e663056371488280a878eb7131
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 9c2daf0162214d6d2e21cf8208a9c6c2a2e42b9c
+  FBSDKLoginKit: 00cf28916b9f0169763a3d61985d745b579fe304
+  FBSDKShareKit: 1cbd0fdc2bb3277dd3522512855dcf1f4088f734
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  Parse: c0519f8fbf57bd0334f75cd22ac032d86ee55464
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  ParseTwitterUtils: 0dde9689565e7012d83f892c64aed2ebe69f2ea9
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
+  SKClient: 45033b9d6887721875dcaee670ed8f35712596d7
+  SKCore: c9ba27cbcaf8f9436432ad737ed14eb44686b3fe
+  SKRTMAPI: 1f3889ba9440abce8370227cd782726612dfb7da
+  SKServer: 1228843063095ac80b074abd7e0dfac30735518f
+  SKWebAPI: 53d08cf0567bd5b77603ff358b9c86e9562a3ff1
+  SlackKit: a8a6707cfcfc9247faba83860a327fa5410c9591
+  Starscream: 168fd64c345fb2dea71b0a869c482aeffcf866e4
+  Swifter: 3fef6ec31449a8e3a29cf8551a9fe23485f15bc0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TwitterCore: 8ce250be1eb34633a0e6acc89520d4165ec52c10
+  TwitterKit: 202404be71aadd81d19f677b34579fe77d9cb67e
+
+PODFILE CHECKSUM: e6c770ccaa722238aa95de77989cf99b7488ad0e
+
+COCOAPODS: 1.3.0.beta.1
